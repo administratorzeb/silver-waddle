@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="XEB - Apprends à créer un site web de A à Z">
+  <title>XEB - Créer un site de A à Z</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>🚀 Bienvenue sur XEB</h1>
+      <p>Apprends à créer un site web de A à Z</p>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#objectif">Objectif</a></li>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#js">JavaScript</a></li>
+        <li><a href="#hebergement">Hébergement</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="objectif" class="section">
+      <div class="section-content">
+        <h2>📋 1. Définir l'objectif</h2>
+        <p>Avant de commencer, pose-toi ces questions :</p>
+        <ul>
+          <li>Quel est le but de mon site ?</li>
+          <li>Qui sont mes visiteurs ?</li>
+          <li>Quels services ou contenus vais-je proposer ?</li>
+        </ul>
+        <div class="example-box">
+          <strong>Exemples :</strong> Portfolio, Blog, E-commerce, Documentation, Réseau social
+        </div>
+      </div>
+    </section>
+
+    <section id="html" class="section">
+      <div class="section-content">
+        <h2>🏗️ 2. Structure HTML</h2>
+        <p>HTML est le fondement de votre site. Il organise le contenu en éléments structurés.</p>
+        
+        <h3>Éléments essentiels :</h3>
+        <ul>
+          <li><code>&lt;header&gt;</code> - En-tête du site</li>
+          <li><code>&lt;nav&gt;</code> - Menu de navigation</li>
+          <li><code>&lt;main&gt;</code> - Contenu principal</li>
+          <li><code>&lt;section&gt;</code> - Sections de contenu</li>
+          <li><code>&lt;footer&gt;</code> - Pied de page</li>
+          <li><code>&lt;article&gt;</code> - Articles de blog</li>
+        </ul>
+
+        <div class="code-block">
+          <strong>Exemple de structure basique :</strong>
+          <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;title&gt;Mon Site&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header&gt;...&lt;/header&gt;
+  &lt;nav&gt;...&lt;/nav&gt;
+  &lt;main&gt;...&lt;/main&gt;
+  &lt;footer&gt;...&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="css" class="section">
+      <div class="section-content">
+        <h2>🎨 3. Mise en forme CSS</h2>
+        <p>CSS rend votre site esthétique et agréable à regarder. Utilisez les couleurs, typographies et espaces stratégiquement.</p>
+        
+        <h3>Concepts clés :</h3>
+        <ul>
+          <li><strong>Flexbox</strong> - Mise en page flexible</li>
+          <li><strong>Grid</strong> - Grille de mise en page</li>
+          <li><strong>Responsive Design</strong> - Adaptation à tous les écrans</li>
+          <li><strong>Variables CSS</strong> - Thèmes cohérents</li>
+          <li><strong>Animations</strong> - Mouvements fluides</li>
+        </ul>
+
+        <div class="example-box">
+          <p>Ce site utilise Flexbox et est entièrement responsive ! 📱💻</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="js" class="section">
+      <div class="section-content">
+        <h2>⚡ 4. Interactivité JavaScript</h2>
+        <p>JavaScript ajoute de l'interactivité et des animations à votre site.</p>
+        
+        <h3>Cas d'usage courants :</h3>
+        <ul>
+          <li>Valider des formulaires</li>
+          <li>Afficher/masquer du contenu</li>
+          <li>Créer des animations</li>
+          <li>Communiquer avec des API</li>
+          <li>Gérer les événements utilisateur</li>
+        </ul>
+
+        <button id="demoBtn" class="btn-primary">Clique ici pour une démo !</button>
+        <p id="demoText" style="display: none; color: #0066cc; font-weight: bold; margin-top: 10px;">
+          🎉 Bienvenue sur XEB ! Vous avez cliqué sur le bouton !
+        </p>
+      </div>
+    </section>
+
+    <section id="hebergement" class="section">
+      <div class="section-content">
+        <h2>🌐 5. Hébergement</h2>
+        <p>Une fois votre site prêt, publiez-le en ligne pour que le monde entier puisse y accéder !</p>
+        
+        <h3>Plateformes populaires :</h3>
+        <div class="hosting-grid">
+          <div class="hosting-card">
+            <h4>GitHub Pages</h4>
+            <p>Gratuit, intégré à GitHub, parfait pour les portfolios statiques.</p>
+          </div>
+          <div class="hosting-card">
+            <h4>Netlify</h4>
+            <p>Déploiement facile, SSL gratuit, support des fonctions serverless.</p>
+          </div>
+          <div class="hosting-card">
+            <h4>Vercel</h4>
+            <p>Optimisé pour Next.js, déploiement instant, performances excellentes.</p>
+          </div>
+          <div class="hosting-card">
+            <h4>Heroku</h4>
+            <p>Pour les applications backend, bases de données intégrées.</p>
+          </div>
+        </div>
+
+        <div class="example-box" style="margin-top: 20px;">
+          <strong>💡 Conseil :</strong> Commencez avec GitHub Pages pour votre premier site statique !
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="section-content">
+        <h2>Prêt à commencer ?</h2>
+        <p>Explorez les ressources ci-dessous pour approfondir vos connaissances.</p>
+        <a href="resources.html" class="btn-primary">📚 Voir les ressources</a>
+        <a href="contact.html" class="btn-secondary">📧 Nous contacter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 XEB - Créer un site de A à Z. Tous droits réservés.</p>
+      <p>Fait avec ❤️ par XEB</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
